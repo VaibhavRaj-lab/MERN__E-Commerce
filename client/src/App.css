@@ -1,0 +1,15 @@
+.loader {
+  background: rgb(19, 16, 12);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.app {
+  /* background-size: auto; */
+
+  height: 100vh;
+  /* position: relative; */
+  /* padding-right: 40px; */
+  width: 100%;
+}

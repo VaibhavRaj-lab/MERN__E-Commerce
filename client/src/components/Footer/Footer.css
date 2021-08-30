@@ -1,0 +1,15 @@
+.footer {
+  width: 100vw;
+  height: 50px;
+  background-color: rgb(205, 255, 251);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: auto;
+}
+.footer_icons {
+  display: flex;
+  width: 170px;
+  padding: 20px;
+  justify-content: space-between;
+}

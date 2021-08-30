@@ -1,0 +1,146 @@
+.container {
+  display: flex;
+  align-items: center;
+  /* background-color: rgb(42, 202, 255); */
+  justify-content: space-between;
+  position: fixed;
+  /* width: 1200px; */
+  width: 100%;
+  /* position: fixed; */
+  top: 0%;
+  /* top: 0.5%; */
+  /* padding: 7px 0; */
+  height: 75px;
+
+  z-index: 100;
+  /* margin-bottom: 1221px; */
+}
+.sideicon {
+  /* padding-left: 20px; */
+  padding-top: 1px;
+  /* color: blanchedalmond; */
+  /* width: 200px; */
+  /* height: 10px; */
+  margin-right: 20px;
+}
+.sideicon a {
+  margin-right: 10px;
+}
+.side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon img {
+  height: 150px;
+
+  width: 200px;
+  object-fit: contain;
+  color: white;
+}
+.deliver {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  width: 150px;
+  font-size: 12px;
+}
+.input {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.inputfield {
+  /* flex: 1; */
+  width: 250px;
+  margin-left: 100px;
+  height: 20px;
+}
+.items {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  margin: 0 10px;
+}
+.item1 {
+  font-size: small;
+}
+.item {
+  font-size: 17px;
+  font-weight: 600;
+}
+.cart {
+  display: flex;
+  margin-right: 10px;
+}
+.cart:hover {
+  cursor: pointer;
+}
+.icon:hover {
+  cursor: pointer;
+}
+.smallnav {
+  display: flex;
+  margin: 10px 0px;
+  align-items: baseline;
+  background: rgb(77, 78, 78);
+}
+.burger {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  /* align-items: center; */
+}
+.Menu {
+  display: flex;
+  justify-content: space-between;
+  /* margin-right: 50px; */
+  margin-left: 80px;
+  /* margin-bottom: 2px; */
+  /* border: 2px solid black; */
+  /* padding: 0px 50px; */
+}
+
+.menuul {
+  display: flex;
+  list-style: none;
+  /* margin: 20px; */
+  /* color: rgb(132, 233, 199); */
+  margin-right: 100px;
+  /* border-bottom: 2px solid black; */
+}
+.menuul li {
+  margin-left: 40px;
+  /* border-bottom: 1px solid rgb(164, 252, 255); */
+  font-size: 30px;
+  color: #000000;
+  /* font-style: oblique; */
+  font-style: italic;
+  font-weight: 200px;
+  font-variant: small-caps;
+  /* font-kerning: initial; */
+}
+.menuul li:hover {
+  background-image: linear-gradient(to left, #ffbcc7, #7ecdcf);
+  cursor: pointer;
+}
+
+.bullets {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  list-style: none;
+}
+.bullets li {
+  margin: 0 17px;
+}
+
+@media only screen and (max-width: 970px) {
+  .container {
+  }
+
+  .Menu {
+    display: none;
+  }
+}
